@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PT Mandiri Global Perkasa - Official Website</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .card-hover {
+      transition: all 0.3s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 15px 30px -10px rgba(14, 116, 144, 0.2);
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-blue-600 selection:text-white">
+
+  <!-- NAVBAR -->
+  <nav class="fixed top-0 w-full z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center font-bold text-white text-xl shadow-lg shadow-blue-600/40">
+          MGP
+        </div>
+        <div class="flex flex-col">
+          <span class="text-lg font-extrabold tracking-wide text-white leading-none">MANDIRI GLOBAL PERKASA</span>
+          <span class="text-xs text-blue-400 font-medium tracking-wider mt-1">PT. MANDIRI GLOBAL PERKASA</span>
+        </div>
+      </div>
+      <div class="hidden md:flex space-x-8 text-sm font-semibold text-slate-300">
+        <a href="#home" class="hover:text-blue-400 transition">Beranda</a>
+        <a href="#tentang" class="hover:text-blue-400 transition">Tentang Kami</a>
+        <a href="#layanan" class="hover:text-blue-400 transition">Layanan</a>
+        <a href="#keunggulan" class="hover:text-blue-400 transition">Keunggulan</a>
+        <a href="#kontak" class="hover:text-blue-400 transition">Kontak</a>
+      </div>
+      <a href="#kontak" class="bg-blue-600 hover:bg-blue-500 text-white px-5 py-2.5 rounded-xl font-semibold text-sm transition shadow-lg shadow-blue-600/30">
+        Hubungi Kami
+      </a>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="min-h-screen pt-28 pb-16 flex items-center justify-center relative overflow-hidden bg-gradient-to-b from-slate-900 via-slate-950 to-slate-950">
+    <div class="absolute -top-40 -left-40 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl"></div>
+    <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      <span class="inline-block bg-blue-600/10 border border-blue-500/30 text-blue-400 font-semibold px-4 py-1.5 rounded-full text-sm mb-6">
+        <i class="fa-solid fa-building-shield mr-2"></i> Solusi Terpercaya & Profesional
+      </span>
+      <h1 class="text-4xl sm:text-6xl font-black tracking-tight text-white mb-6 leading-tight">
+        Membangun Masa Depan Bersama <br class="hidden sm:inline"/>
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-cyan-400 to-indigo-400">
+          PT Mandiri Global Perkasa
+        </span>
+      </h1>
+      <p class="text-slate-400 max-w-3xl mx-auto text-base sm:text-lg mb-10 leading-relaxed">
+        Mitra strategis terpercaya yang berkomitmen memberikan pelayanan terbaik, efisiensi tinggi, dan solusi inovatif berkualitas untuk mendukung pertumbuhan bisnis Anda.
+      </p>
+
+      <div class="flex flex-col sm:flex-row justify-center gap-4 mb-16">
+        <a href="#layanan" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-8 py-4 rounded-xl shadow-lg shadow-blue-600/30 transition">
+          Jelajahi Layanan <i class="fa-solid fa-arrow-right ml-2"></i>
+        </a>
+        <a href="#tentang" class="bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 font-semibold px-8 py-4 rounded-xl transition">
+          Tentang Perusahaan
+        </a>
+      </div>
+
+      <!-- STATISTIK RINGKAS -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto pt-8 border-t border-slate-800/80">
+        <div class="p-4">
+          <h3 class="text-3xl font-extrabold text-blue-400">100%</h3>
+          <p class="text-xs text-slate-400 mt-1 uppercase tracking-wider font-medium">Komitmen Pelayanan</p>
+        </div>
+        <div class="p-4">
+          <h3 class="text-3xl font-extrabold text-blue-400">Profesional</h3>
+          <p class="text-xs text-slate-400 mt-1 uppercase tracking-wider font-medium">Tim Berpengalaman</p>
+        </div>
+        <div class="p-4">
+          <h3 class="text-3xl font-extrabold text-blue-400">Terpercaya</h3>
+          <p class="text-xs text-slate-400 mt-1 uppercase tracking-wider font-medium">Kemitraan Jangka Panjang</p>
+        </div>
+        <div class="p-4">
+          <h3 class="text-3xl font-extrabold text-blue-400">Solutif</h3>
+          <p class="text-xs text-slate-400 mt-1 uppercase tracking-wider font-medium">Inovasi Berkelanjutan</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TENTANG KAMI -->
+  <section id="tentang" class="py-24 bg-slate-900 border-t border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <span class="text-blue-500 font-bold tracking-wider text-sm uppercase">Profil Perusahaan</span>
+          <h2 class="text-3xl font-extrabold text-white sm:text-4xl mt-2 mb-6">Dedikasi Terbaik untuk Kepuasan Mitra</h2>
+          <p class="text-slate-400 leading-relaxed mb-6">
+            <strong>PT Mandiri Global Perkasa</strong> hadir sebagai entitas bisnis yang mengedepankan integritas, profesionalisme, dan kualitas terbaik dalam setiap layanan yang kami berikan. 
+          </p>
+          <p class="text-slate-400 leading-relaxed mb-8">
+            Kami terus beradaptasi dengan perkembangan industri untuk memastikan setiap solusi yang dipersiapkan mampu menjawab tantangan serta mendukung efisiensi operational mitra kerja kami.
+          </p>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800">
+              <h4 class="font-bold text-white mb-1"><i class="fa-solid fa-eye text-blue-500 mr-2"></i>Visi</h4>
+              <p class="text-xs text-slate-400">Menjadi perusahaan nasional terdepan yang terpercaya, unggul, dan berdaya saing global.</p>
+            </div>
+            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800">
+              <h4 class="font-bold text-white mb-1"><i class="fa-solid fa-bullseye text-blue-500 mr-2"></i>Misi</h4>
+              <p class="text-xs text-slate-400">Memberikan layanan standar mutu tinggi serta membina kemitraan jangka panjang yang saling menguntungkan.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative">
+          <div class="bg-gradient-to-tr from-blue-600 to-indigo-600 rounded-3xl p-1">
+            <div class="bg-slate-950 rounded-[23px] p-8 border border-slate-800">
+              <h3 class="text-xl font-bold text-white mb-6">Mengapa Memilih Kami?</h3>
+              <ul class="space-y-4">
+                <li class="flex items-start">
+                  <i class="fa-solid fa-circle-check text-blue-500 mt-1 mr-3"></i>
+                  <div>
+                    <strong class="text-white block">Manajemen Terstruktur</strong>
+                    <span class="text-slate-400 text-sm">Sistem kerja tersertifikasi dan tertata dengan standar tinggi.</span>
+                  </div>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa-solid fa-circle-check text-blue-500 mt-1 mr-3"></i>
+                  <div>
+                    <strong class="text-white block">Respon Cepat & Tanggap</strong>
+                    <span class="text-slate-400 text-sm">Tim siap memberikan dukungan penuh untuk kebutuhan operasional Anda.</span>
+                  </div>
+                </li>
+                <li class="flex items-start">
+                  <i class="fa-solid fa-circle-check text-blue-500 mt-1 mr-3"></i>
+                  <div>
+                    <strong class="text-white block">Jaringan Luas</strong>
+                    <span class="text-slate-400 text-sm">Memiliki fleksibilitas dan ekosistem kemitraan yang kuat.</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LAYANAN SECTION -->
+  <section id="layanan" class="py-24 bg-slate-950">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <span class="text-blue-500 font-bold tracking-wider text-sm uppercase">Layanan Unggulan</span>
+        <h2 class="text-3xl font-extrabold text-white sm:text-4xl mt-2">Solusi Bisnis Komprehensif</h2>
+        <p class="text-slate-400 mt-3 max-w-xl mx-auto">Kami menyediakan berbagai bidang layanan terbaik yang dapat disesuaikan dengan kebutuhan Anda.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="bg-slate-900 p-8 rounded-2xl border border-slate-800 card-hover">
+          <div class="w-14 h-14 bg-blue-600/10 rounded-2xl flex items-center justify-center text-blue-500 mb-6 text-2xl">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Layanan Profesional</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Penyediaan jasa pendukung dan konsultasi pengelolaan operasional bisnis dengan standar mutu terjamin.
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-slate-900 p-8 rounded-2xl border border-slate-800 card-hover">
+          <div class="w-14 h-14 bg-blue-600/10 rounded-2xl flex items-center justify-center text-blue-500 mb-6 text-2xl">
+            <i class="fa-solid fa-users-gear"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Manajemen Sumber Daya</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Pengelolaan tenaga kerja kompeten dan terlatih untuk mendukung efektivitas serta efisiensi kegiatan usaha Anda.
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-slate-900 p-8 rounded-2xl border border-slate-800 card-hover">
+          <div class="w-14 h-14 bg-blue-600/10 rounded-2xl flex items-center justify-center text-blue-500 mb-6 text-2xl">
+            <i class="fa-solid fa-handshake"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Kemitraan Strategis</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Fasilitator kerja sama suplai dan pengadaan kebutuhan perusahaan secara transparan, tepat waktu, dan tepercaya.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAK SECTION -->
+  <section id="kontak" class="py-24 bg-slate-900 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div>
+          <span class="text-blue-500 font-bold tracking-wider text-sm uppercase">Kontak Kami</span>
+          <h2 class="text-3xl font-extrabold text-white sm:text-4xl mt-2 mb-6">Hubungi Tim PT Mandiri Global Perkasa</h2>
+          <p class="text-slate-400 mb-8 leading-relaxed">
+            Apakah Anda memiliki pertanyaan atau ingin berdiskusi mengenai peluang kerja sama? Tim kami siap memberikan informasi yang Anda butuhkan.
+          </p>
+
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <div class="w-12 h-12 bg-blue-600/10 rounded-xl flex items-center justify-center text-blue-500 mr-4 text-lg">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-white">Alamat Kantor</h4>
+                <p class="text-slate-400 text-sm mt-1">Indonesia</p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="w-12 h-12 bg-blue-600/10 rounded-xl flex items-center justify-center text-blue-500 mr-4 text-lg">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-white">Email</h4>
+                <p class="text-slate-400 text-sm mt-1">info@mandiriglobalperkasa.co.id</p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="w-12 h-12 bg-blue-600/10 rounded-xl flex items-center justify-center text-blue-500 mr-4 text-lg">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-white">Telepon / Whatsapp</h4>
+                <p class="text-slate-400 text-sm mt-1">+62 812-XXXX-XXXX</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FORM KIRIM PESAN -->
+        <div class="bg-slate-950 p-8 rounded-3xl border border-slate-800">
+          <h3 class="text-xl font-bold text-white mb-6">Kirim Pesan</h3>
+          <form onsubmit="handleSubmit(event)" class="space-y-4">
+            <div>
+              <label class="block text-sm font-medium text-slate-300 mb-1">Nama Lengkap</label>
+              <input type="text" required placeholder="Masukkan nama Anda" class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500"/>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-slate-300 mb-1">Email</label>
+              <input type="email" required placeholder="nama@email.com" class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500"/>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-slate-300 mb-1">Pesan / Keperluan</label>
+              <textarea rows="4" required placeholder="Tulis pesan atau pertanyaan Anda di sini..." class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 rounded-xl transition shadow-lg shadow-blue-600/30">
+              Kirim Pesan
+            </button>
+          </form>
+          <div id="formNotice" class="hidden mt-4 p-3 bg-blue-600/10 border border-blue-500/30 rounded-xl text-xs text-blue-400 text-center">
+            Terima kasih! Pesan Anda berhasil dikirim.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-950 py-10 border-t border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
+      <div class="flex items-center space-x-2 mb-4 sm:mb-0">
+        <span class="font-bold text-white">PT MANDIRI GLOBAL PERKASA</span>
+      </div>
+      <p>&copy; 2026 PT Mandiri Global Perkasa. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function handleSubmit(e) {
+      e.preventDefault();
+      const notice = document.getElementById('formNotice');
+      notice.classList.remove('hidden');
+      e.target.reset();
+      setTimeout(() => {
+        notice.classList.add('hidden');
+      }, 4000);
+    }
+  </script>
+</body>
+</html>
